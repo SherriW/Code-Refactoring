@@ -1,3 +1,10 @@
+/* Label types of settings and place css in proper areas, in order of html */
+/* Remove unnecessary dot for classes that were changed to semantic HTML and no longer need the class designation. */
+/* Relabel classes as ids, as necessary */
+/* Consolidate css for sections that were change to due unnecessary separate classes with same css settings */
+/* Add top margin to aside benefits and adjust to balance both with the three services boxes */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
