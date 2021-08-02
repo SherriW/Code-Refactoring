@@ -1,7 +1,6 @@
 /* Labeled types of settings and place css in proper areas, in order of html */
 /* Remove unnecessary dot for classes that were changed to semantic HTML and no longer need the class designation. */
 /* Corrected syntax error in font-family for Calibri */
-/* Relabeled classes as ids, as necessary */
 /* Consolidated css by using classes for services and benefit in html sections that were changed due to unnecessary separate classes with same css setting types */
 /* Add top margin to aside benefits and adjust to balance both with the three services boxes */
 
@@ -142,14 +141,14 @@ main {
 /* Aside Settings End */
 
 /* Footer Settings Start */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 /* Footer Settings End */
