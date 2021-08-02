@@ -1,8 +1,10 @@
 /* Labeled types of settings and place css in proper areas, in order of html */
 /* Remove unnecessary dot for classes that were changed to semantic HTML and no longer need the class designation. */
-/* Relabel classes as ids, as necessary */
-/* Consolidate css for sections that were change to due unnecessary separate classes with same css settingypes */
+/* Corrected syntax error in font-family for Calibri */
+/* Relabeled classes as ids, as necessary */
+/* Consolidated css by using classes for services and benefit in html sections that were changed due to unnecessary separate classes with same css setting types */
 /* Add top margin to aside benefits and adjust to balance both with the three services boxes */
+
 
 /* Global Settings Start */
 * {
@@ -122,48 +124,17 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
