@@ -2,7 +2,7 @@
 /* Remove unnecessary dot for classes that were changed to semantic HTML and no longer need the class designation. */
 /* Corrected syntax error in font-family for Calibri */
 /* Consolidated css by using classes for services and benefit in html sections that were changed due to unnecessary separate classes with same css setting types */
-/* Add top margin to aside benefits and adjust to balance both with the three services boxes */
+/* Added top margin to aside benefits and adjust to balance both with the three services boxes */
 
 
 /* Global Settings Start */
@@ -113,6 +113,7 @@ main {
 
 /* Aside Settings Start */
 .benefits {
+    
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -124,6 +125,7 @@ main {
 }
 
 .benefit {
+    margin-top: 24px;
     margin-bottom: 32px;
     color: #ffffff;
 }
